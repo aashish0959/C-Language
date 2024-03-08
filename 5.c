@@ -3,9 +3,9 @@ void main(){
     int a=8,b=3;
 
     if(a>b){
-        printf("a is minimum");
+        printf("a is maximum");
     }
     else{
-        printf("B is minimum");
+        printf("B is maximum");
     }
 }
