@@ -3,11 +3,11 @@ void main(){
     int a,b,c,d;
     printf("enter the first value a :- ");
     scanf("%d",&a);
-     printf("enter the first value b :- ");
+     printf("enter the second value b :- ");
     scanf("%d",&b);
-     printf("enter the first value c :- ");
+     printf("enter the third value c :- ");
     scanf("%d",&c);
-    printf("enter the first value d :- ");
+    printf("enter the fourth value d :- ");
     scanf("%d",&d);
   
 
