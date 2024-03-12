@@ -12,6 +12,11 @@ void main(){
   
 
 
+
+    
+  
+
+
     if (a>b)
     {
         if (a>c)
@@ -25,41 +30,88 @@ void main(){
             }
             
         }
-        else{
-            if (c>d)
-            {
-                printf("c max");
-            }
-            else{
-                printf("d max");
-            }
-            
-        }
         
-    }
-    else{
-        if (b>c)
-        {
-            if (b>d)
-            {
-                printf("b max");
-            }
-            else{
-                printf("d max");
-            }
-
-        }
         else{
-            if (c>d)
-            {
-                printf("c max");
-            }
-            else{
-                printf("d max");
-            }
-            
+            printf("c max");
         }
         
     }
     
+    
+    else if(b>c){
+        if(b>d)
+        {
+            printf("b max");
+        }
+    }
+        
+        else if(c>d){
+                printf("c max");
+            }
+            
+        else{
+            printf("d max");
+            
+        }
+        
+    
+    
+
+
+
+
+    // if (a>b)
+    // {
+    //     if (a>c)
+    //     {
+    //         if (a>d)
+    //         {
+    //             printf("a max");
+    //         }
+    //         else{
+    //             printf("d max");
+    //         }
+            
+    //     }
+    //     else{
+    //         if (c>d)
+    //         {
+    //             printf("c max");
+    //         }
+    //         else{
+    //             printf("d max");
+    //         }
+            
+    //     }
+        
+    // }
+    // else{
+    //     if (b>c)
+    //     {
+    //         if (b>d)
+    //         {
+    //             printf("b max");
+    //         }
+    //         else{
+    //             printf("d max");
+    //         }
+
+    //     }
+    //     else{
+    //         if (c>d)
+    //         {
+    //             printf("c max");
+    //         }
+    //         else{
+    //             printf("d max");
+    //         }
+            
+    //     }
+        
+    // }
+    
+
+
+
+
 }
