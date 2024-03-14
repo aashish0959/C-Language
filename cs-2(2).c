@@ -12,11 +12,6 @@ void main(){
   
 
 
-
-    
-  
-
-
     if (a>b)
     {
         if (a>c)
@@ -30,34 +25,45 @@ void main(){
             }
             
         }
-        
         else{
-            printf("c max");
-        }
-        
-    }
-    
-    
-    else if(b>c){
-        if(b>d)
-        {
-            printf("b max");
-        }
-    }
-        
-        else if(c>d){
+            if (c>d)
+            {
                 printf("c max");
             }
-            
-        else{
-            printf("d max");
+            else{
+                printf("d max");
+            }
             
         }
         
-    
-    
+    }
+    else{
+        if (b>c)
+        {
+            if (b>d)
+            {
+                printf("b max");
+            }
+            else{
+                printf("d max");
+            }
 
+        }
+        else{
+            if (c>d)
+            {
+                printf("c max");
+            }
+            else{
+                printf("d max");
+            }
+            
+        }
+        
+    }
 
+    
+  
 
 
     // if (a>b)
@@ -73,43 +79,37 @@ void main(){
     //         }
             
     //     }
-    //     else{
-    //         if (c>d)
-    //         {
-    //             printf("c max");
-    //         }
-    //         else{
-    //             printf("d max");
-    //         }
-            
-    //     }
         
-    // }
-    // else{
-    //     if (b>c)
-    //     {
-    //         if (b>d)
-    //         {
-    //             printf("b max");
-    //         }
-    //         else{
-    //             printf("d max");
-    //         }
-
-    //     }
     //     else{
-    //         if (c>d)
-    //         {
-    //             printf("c max");
-    //         }
-    //         else{
-    //             printf("d max");
-    //         }
-            
+    //         printf("c max");
     //     }
         
     // }
     
+    
+    // else if(b>c){
+    //     if(b>d)
+    //     {
+    //         printf("b max");
+    //     }
+    // }
+        
+    //     else if(c>d){
+    //             printf("c max");
+    //         }
+            
+    //     else{
+    //         printf("d max");
+            
+    //     }
+        
+    
+    
+
+
+
+
+        
 
 
 
