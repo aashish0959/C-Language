@@ -1,3 +1,8 @@
+
+// 12
+// this is Not prime number 12
+// this is  prime number 3
+
 #include<stdio.h>
 void main (){
     int n,i,flag=0;
