@@ -1,31 +1,22 @@
-#include<stdio.h>
-#include <string.h>
+#include <stdio.h>
 
-void reverseArray(char arr[],int langth)
+int main()
 {
-    int start =0;
-    int end = langth -1;
-
-    while (start < end)
+    int n;
+    printf("enter value lenth");
+    scanf("%d", &n);
+    char a[n];
+    for (int i = 0; i < n; i++)
     {
-        char temp = arr[start];
-        arr[start] = arr[end];
-        arr[end] = temp;
-
-        start++;
-        end--;
+        scanf("%s", &a[i]);
+    }
+    for (int i = 0; i < n; i++)
+    {
+        printf("%c", a[i]);
+    }
+printf("\n");
+    for (int i = n - 1; i >= 0; i--)
+    {
+        printf("%c", a[i]);
     }
 }
-
-int main(){
-    char arr [] ="Hello, World!";
-    int langth = strlen (arr);
-
-    printf("original array : %s\n",arr);
-
-    reverseArray(arr,langth);
-    printf("Revershd arrar %s\n",arr);
-     
-    return 0;
-}
-
