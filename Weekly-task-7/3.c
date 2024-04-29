@@ -1,21 +1,41 @@
-// Reverse a given number using loops:
-// Enter an integer: 12345
-// Reversed Number: 54321
+// 3. **Question 3: Largest among Three Numbers**
+//    Develop a C program that takes three numbers as input and finds the largest among them.
 
-#include <stdio.h>
+#include<stdio.h>
 
-int main() {
-    int number, reverse = 0, remainder;
+main()
+{
+    int a,b,c;
 
-    printf("Enter a positive integer: ");
-    scanf("%d", &number);
+    printf("Enter First Number :");
+    scanf("%d",&a);
 
-    while (number != 0) {
-        remainder = number % 10;
-        reverse = reverse * 10 + remainder;
-        number /= 10;
+    printf("Enter Second Number :");
+    scanf("%d",&b);
+
+    printf("Enter Third Number :");
+    scanf("%d",&c);
+
+    if (a > b)
+    {
+        if (a > c)
+        {
+            printf("First Number Is Big .. %d",a);
+        }
+        
+        else{
+            printf("Third Number Is Big.. %d",c);
+        }
+
     }
-
-    printf("Reversed number: %d\n", reverse);
-
+    else if (b > c)
+    {
+        printf("Second Number Is big .. %d",b);
+    }
+    else
+    {
+            printf("Third Number Is Big.. %d",c);
+    }
+    
+    
 }

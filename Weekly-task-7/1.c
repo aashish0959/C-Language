@@ -1,16 +1,23 @@
-// Enter the value of N: 5
-// The sum of the first 5 natural numbers is: 15
+// 1. **Question 1: Positive or Negative**
+//    Write a C program to input a number and determine whether it's positive, negative, or zero.
 
-#include<stdio.h>
+#include <stdio.h>
+main()
+{
+    int a;
 
-main(){
-    int a,sum=0;
+    printf("Enter Number :");
+    scanf("%d", &a);
 
-    printf("Enter the size=");
-    scanf("%d",&a);
-
-    for(int i=0; i<=a; i++){
-        sum=sum+i;
+    if (a == 0)
+    {
+        printf("This is Zero... %d",a);
     }
-    printf("%d",sum);
+    else if (a < 0)
+    {
+        printf("This is Nagative... %d",a);
+    }
+    else{
+        printf("This is Positive... %d",a);
+    }
 }
